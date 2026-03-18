@@ -1,0 +1,12 @@
+{
+  "el": [
+    { "day": "Δευτέρα - Παρασκευή", "hours": "10:00 - 22:00" },
+    { "day": "Σάββατο - Κυριακή", "hours": "Κλειστά" },
+    { "day": "Σημείωση", "hours": "Κλειστά τον Αύγουστο και τις αργίες" }
+  ],
+  "en": [
+    { "day": "Monday - Friday", "hours": "10:00 AM - 10:00 PM" },
+    { "day": "Saturday - Sunday", "hours": "Closed" },
+    { "day": "Note", "hours": "Closed in August and for Holidays" }
+  ]
+}

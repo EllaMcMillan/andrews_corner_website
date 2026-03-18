@@ -1,0 +1,116 @@
+:root {
+  /* Warm wood, bookish palette */
+  --cream: #f9f7f2;
+  --walnut: #4a3728;
+  --chestnut: #7b5036;
+  --olive: #6b705c;
+  --sage: #a5a58d;
+  --warm-gray: #e9edc9;
+  --white: #ffffff;
+  --text-dark: #2c241e;
+  --text-muted: #5d534a;
+
+  /* Typography */
+  --font-serif: "Playfair Display", serif;
+  --font-body: "Lora", serif;
+
+  /* Spacing */
+  --space-xs: 0.75rem;
+  --space-sm: 1.5rem;
+  --space-md: 3rem;
+  --space-lg: 6rem;
+  --space-xl: 9rem;
+
+  /* Layout */
+  --max-width: 900px; /* Narrower for better readability, like a book page */
+  --header-height: 80px;
+  --border-subtle: #dcd7cc;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--cream);
+  color: var(--text-dark);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  color: var(--walnut);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+a {
+  color: var(--chestnut);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--olive);
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--font-body);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+section {
+  padding: var(--space-lg) 0;
+  border-bottom: none;
+}
+
+/* Specific spacing for sections */
+.about-section {
+  margin-bottom: var(--space-xl);
+  padding-top: var(--space-md);
+}
+
+#events {
+  border-bottom: none;
+}
+
+.hero {
+  text-align: center;
+  padding: var(--space-xl) 0 var(--space-lg) 0;
+  border-bottom: 2px solid var(--walnut);
+  margin-bottom: var(--space-xl);
+}
+
+.institute-box {
+  background-color: var(--white);
+}
+
+#events {
+  margin-bottom: var(--space-xl);
+}
+
+#library h2 {
+  margin-top: var(--space-md);
+}
+
+.donation-section {
+  margin-bottom: var(--space-xl);
+}
+
+.library-box {
+  background-color: var(--white);
+  padding: var(--space-md);
+  border: 1px solid var(--border-subtle);
+  margin-top: var(--space-md);
+}
+

@@ -1,0 +1,26 @@
+{
+  "el": [
+    {
+      "title": "Κοινοτικό Γεύμα",
+      "date": "Κάθε Τετάρτη, 14:00",
+      "description": "Ελάτε να μοιραστούμε ένα σπιτικό γεύμα και να γνωριστούμε καλύτερα."
+    },
+    {
+      "title": "Λέσχη Ανάγνωσης",
+      "date": "Πρώτη Πέμπτη του μήνα, 18:30",
+      "description": "Συζητάμε για τη λογοτεχνία και τη ζωή γύρω από το μεγάλο μας τραπέζι."
+    }
+  ],
+  "en": [
+    {
+      "title": "Community Lunch",
+      "date": "Every Wednesday, 2:00 PM",
+      "description": "Join us for a shared meal and good conversation."
+    },
+    {
+      "title": "Book Club",
+      "date": "First Thursday of the month, 6:30 PM",
+      "description": "Discussing literature and life around our large wooden table."
+    }
+  ]
+}

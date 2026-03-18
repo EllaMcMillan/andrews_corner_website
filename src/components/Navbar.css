@@ -1,0 +1,64 @@
+.navbar {
+  height: var(--header-height);
+  background-color: var(--white);
+  border-bottom: 1px solid var(--warm-gray);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo a {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--walnut);
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: var(--space-md);
+}
+
+.nav-links a {
+  font-family: var(--font-body);
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.lang-switcher button {
+  background: none;
+  border: none;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  padding: 0.25rem 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.lang-switcher button.active {
+  color: var(--walnut);
+  font-weight: 700;
+  border-bottom: 2px solid var(--walnut);
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* In a real project, we'd add a mobile menu. Keeping it simple for now. */
+  }
+}
